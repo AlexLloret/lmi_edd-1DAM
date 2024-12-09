@@ -1,0 +1,20 @@
+site_name: 'Documentació de les Tasques'
+theme:
+  name: 'mkdocs'
+  palette:
+    primary: 'indigo'
+    accent: 'pink'
+    background: 'white'
+    surface: 'grey'
+    error: 'red'
+
+nav:
+  - Inici: index.md
+  - Artoicles EDD:
+    - Article 1 MD: EDD/md/TASCA1.md
+    - Article 2 MD: EDD/md/TASCA2.md
+    - Article 3 MD: EDD/md/TASCA3.md
+    - Article 4 MD: EDD//md/TASCA4.md
+  - Articles LMI:
+    - Article 1 MD: LMI/md/TASCA1.md
+    - Article 2 MD: LMI/md/TASCA2.md
