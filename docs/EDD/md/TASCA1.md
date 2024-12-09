@@ -13,6 +13,4 @@
 | **C#**           | Integració amb la plataforma .NET de Microsoft, potent i eficient     | Aplicacions d'escriptori, jocs amb Unity.|
 | **R**            | Centrat en l'anàlisi estadística, rica en paquets per a modelatge     | Anàlisi de dades, estadística i visualització gràfica.|
 
-![ Alt Text](IMG/python.jpg)
-
 [WEB PYTHON](https://www.python.org)
