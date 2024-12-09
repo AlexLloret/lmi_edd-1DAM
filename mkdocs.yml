@@ -3,6 +3,7 @@ docs_dir: 'md_docs'
 site_dir: 'docs'
 theme:
   name: 'material'
+  custom_dir: 'docs/overrides'
   palette:
     primary: 'indigo'
     accent: 'pink'
@@ -10,7 +11,7 @@ theme:
     surface: 'grey'
     error: 'red'
   extra_css:
-    - 'docs/overrides/extra,css'
+    - 'docs/overrides/extra.css'
 
 nav:
   - Inici: index.md
