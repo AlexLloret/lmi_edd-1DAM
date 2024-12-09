@@ -69,6 +69,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#mecanismes-i-procediment-per-a-desenvolupament-collaboratiu" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -421,6 +426,19 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Article 1
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -431,6 +449,43 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mecanisme-utilitzat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mecanisme Utilitzat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#procediment-de-treball" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procediment de Treball
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1061,6 +1116,34 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mecanisme-utilitzat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mecanisme Utilitzat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#procediment-de-treball" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procediment de Treball
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1075,9 +1158,50 @@
                   
 
 
-  <h1>Article 1</h1>
-
-
+<h1 id="mecanismes-i-procediment-per-a-desenvolupament-collaboratiu">Mecanismes i Procediment per a Desenvolupament Col·laboratiu</h1>
+<h2 id="mecanisme-utilitzat">Mecanisme Utilitzat</h2>
+<ul>
+<li><strong>Sistema de control de versions: Subversion (SVN)</strong></li>
+<li>Subversion és un sistema centralitzat que facilita el control de versions del codi font compartit entre diversos desenvolupadors.</li>
+</ul>
+<h2 id="procediment-de-treball">Procediment de Treball</h2>
+<ol>
+<li><strong>Configuració inicial del repositori</strong>:</li>
+<li>
+<p>Crear el repositori a SVN i fer la primera còpia del projecte amb:
+     <code>bash
+     svn co &lt;URL-del-repositori&gt;</code></p>
+</li>
+<li>
+<p><strong>Desenvolupament</strong>:</p>
+</li>
+<li>Abans de començar a treballar, actualitza els teus arxius:
+     <code>bash
+     svn up</code></li>
+<li>
+<p>Treballa en la teva branca i realitza els canvis necessaris.</p>
+</li>
+<li>
+<p><strong>Pujar els canvis al repositori</strong>:</p>
+</li>
+<li>
+<p>Després de realitzar els canvis, puja els arxius amb:
+     <code>bash
+     svn ci -m "Descripció dels canvis"</code></p>
+</li>
+<li>
+<p><strong>Revisió i gestió de conflictes</strong>:</p>
+</li>
+<li>
+<p>Quan fusionis canvis, es poden produir conflictes, que caldrà resoldre manualment.</p>
+</li>
+<li>
+<p><strong>Verificar l'estat dels arxius</strong>:</p>
+</li>
+<li>Utilitza:
+     <code>bash
+     svn st</code></li>
+</ol>
 
 
 
