@@ -9,6 +9,8 @@ theme:
     background: 'white'
     surface: 'grey'
     error: 'red'
+  extra_css:
+    - 'docs/overrides/extra,css'
 
 nav:
   - Inici: index.md
