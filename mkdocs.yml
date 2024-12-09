@@ -3,15 +3,12 @@ docs_dir: 'md_docs'
 site_dir: 'docs'
 theme:
   name: 'material'
-  custom_dir: 'docs/overides'
   palette:
     primary: 'indigo'
     accent: 'pink'
     background: 'white'
     surface: 'grey'
     error: 'red'
-  extra_css:
-    - 'docs/overides/extra.css'
 
 nav:
   - Inici: index.md
